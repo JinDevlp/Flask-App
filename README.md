@@ -1,14 +1,19 @@
-# Airbnb_db
+# Coded Together App_db
 
-This application represents host and user of Airbnb booking system.
+This web application is CRUD of Coded Together App.
 
 # Endpoints
 
 | HTTP Method  | URL |
 | ------------- | ------------- |
-| GET  | /listings  |
-| PATH/PUT  | /listings  |
-| POST  | /listings  |
-| DELETE  | /listings  |
-| GET  | /hosts  |
-| GET  | /users  |
+| GET  | /projects  |
+| POST  | /projects  |
+| GET  | /projects/:id  |
+| PATCH/PUT  | /projects/:id  |
+| DELETE  | /projects/:id  |
+| GET  | /user  |
+| GET  | /user/:id  |
+| GET  | /projects/backend  |
+| GET  | /projects/frontend  |
+
+# Project Design
