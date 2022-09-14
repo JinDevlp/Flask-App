@@ -11,7 +11,6 @@ This web application includes CRUD operations of Coded Together App.
 | GET, POST  | /login  | 
 | GET, POST  | /sign-up  |
 | GET, POST  | /  | - Home page(login is required)
-| GET  | /:id  | - redirects to the specific project
 | PATCH/PUT  | /update_project  | # not coded yet
 | DELETE  | /delete_project  |
 
