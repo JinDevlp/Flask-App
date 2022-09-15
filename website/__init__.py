@@ -15,7 +15,7 @@ def create_database(app):
 def create_app():
     app = Flask(__name__)
     app.config['SECRET_KEY'] = 'development'
-    app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://postgres@192.168.254.18:5432/{DB_NAME}'
+    app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://####{DB_NAME}'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db.init_app(app)
     
